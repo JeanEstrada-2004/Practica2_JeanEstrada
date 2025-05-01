@@ -1,0 +1,23 @@
+@model List<Practica2_JeanEstrada.Models.Adoption>
+
+<h2>Lista de Adopciones</h2>
+
+<table border="1" cellpadding="8">
+    <thead>
+        <tr>
+            <th>Nombre de Mascota</th>
+            <th>Nombre del Adoptante</th>
+            <th>Estado de Adopción</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var adoption in Model)
+        {
+            <tr>
+                <td>@adoption.Pet.Name</td>
+                <td>@adoption.Adopter.FullName</td>
+                <td>@adoption.Pet.AdoptionStatus</td>
+            </tr>
+        }
+    </tbody>
+</table>

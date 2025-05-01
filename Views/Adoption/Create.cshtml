@@ -1,0 +1,31 @@
+@{
+    ViewBag.Title = "Nueva Adopción";
+    var pets = ViewBag.Pets as List<Practica2_JeanEstrada.Models.Pet>;
+    var adopters = ViewBag.Adopters as List<Practica2_JeanEstrada.Models.Adopter>;
+}
+
+<h2>Asignar Mascota a Adoptante</h2>
+
+<form method="post" asp-action="Create" asp-controller="Adoption">
+    <div>
+        <label>Mascota:</label>
+        <select name="petId" required>
+            @foreach (var pet in pets)
+            {
+                <option value="@pet.Id">@pet.Name</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Adoptante:</label>
+        <select name="adopterId" required>
+            @foreach (var adopter in adopters)
+            {
+                <option value="@adopter.Id">@adopter.FullName</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit">Asignar</button>
+</form>

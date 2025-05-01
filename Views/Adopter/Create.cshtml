@@ -1,0 +1,17 @@
+@model Practica2_JeanEstrada.Models.Adopter
+
+<h2>Registrar Persona Interesada en Adoptar</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Nombre completo:</label>
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Registrar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
