@@ -3,9 +3,13 @@ using Practica2_JeanEstrada.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Registrar el DbContext ANTES de builder.Build()
+builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
+
 
 // Resto de servicios
 builder.Services.AddControllersWithViews();
