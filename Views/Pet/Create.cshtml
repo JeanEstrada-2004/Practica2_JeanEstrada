@@ -1,0 +1,38 @@
+@model Practica2_JeanEstrada.Models.Pet
+
+<h2>Registrar Nueva Mascota</h2>
+
+<form asp-action="Create" asp-controller="Pet" method="post">
+    <div>
+        <label>Nombre:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Edad:</label>
+        <input asp-for="Age" type="number" min="0" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Tipo:</label>
+        <input asp-for="Type" />
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Estado de adopción:</label>
+        <select asp-for="AdoptionStatus">
+            <option value="Disponible">Disponible</option>
+            <option value="Adoptada">Adoptada</option>
+        </select>
+        <span asp-validation-for="AdoptionStatus" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Guardar</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
