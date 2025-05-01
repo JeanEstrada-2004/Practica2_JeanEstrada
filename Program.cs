@@ -12,6 +12,14 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// Ejecutar migraciones automáticamente al iniciar en Render
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
+
+
 // Configuración del pipeline (esto está correcto)
 if (!app.Environment.IsDevelopment())
 {
