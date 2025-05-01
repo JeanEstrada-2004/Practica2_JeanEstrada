@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Practica2_JeanEstrada.props" />
+</Project>
