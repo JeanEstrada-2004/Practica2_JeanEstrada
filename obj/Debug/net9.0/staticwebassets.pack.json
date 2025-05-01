@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\Practica2_JeanEstrada.p0mg6oefd1.bundle.scp.css"
     },
     {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\css\\Adopter\\styles.css",
+      "PackagePath": "staticwebassets\\css\\Adopter\\styles.css"
+    },
+    {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\css\\Adoption\\styles.css",
+      "PackagePath": "staticwebassets\\css\\Adoption\\styles.css"
+    },
+    {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\css\\Pet\\styles.css",
+      "PackagePath": "staticwebassets\\css\\Pet\\styles.css"
+    },
+    {
       "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\js\\Adopter\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\Adopter\\scripts.js"
+    },
+    {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\js\\Adoption\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\Adoption\\scripts.js"
+    },
+    {
+      "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\js\\Pet\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\Pet\\scripts.js"
     },
     {
       "Id": "C:\\USMP - Jean Carlos\\Clases\\Ciclo VI\\Programación I\\Semana 9\\Practica2_JeanEstrada\\wwwroot\\js\\site.js",

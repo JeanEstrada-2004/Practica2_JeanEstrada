@@ -197,3 +197,9 @@ C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEst
 C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\uap9a2jrj5-fir4pugqed.gz
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\gvkgua8qt6-8mhvqlw95l.gz
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\u5l65qdnn3-878eu2ii5q.gz
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\zgmzydoa7t-xht3drzhb5.gz
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\zgn90dm7sv-ayuacy71ft.gz
+C:\USMP - Jean Carlos\Clases\Ciclo VI\Programación I\Semana 9\Practica2_JeanEstrada\obj\Debug\net9.0\compressed\1vmquil7jm-zpm5b5s1od.gz
